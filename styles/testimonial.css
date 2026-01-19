@@ -1,0 +1,136 @@
+.testimonial-section {
+  min-height: 100vh;
+  padding: 120px 20px 60px;
+}
+
+.testimonial-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--purple);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.testimonial-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: var(--light-purple);
+}
+
+.intro-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.points-section {
+  margin-bottom: 50px;
+}
+
+.points-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: var(--light-purple);
+}
+
+.points-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.points-list li {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.points-list.positive li {
+  border-left-color: #22c55e;
+}
+
+.points-list.negative li {
+  border-left-color: #fbbf24;
+}
+
+.points-list li strong {
+  color: var(--light-purple);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.conclusion-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.conclusion-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: var(--light-purple);
+}
+
+.conclusion-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.stars {
+  font-size: 1.3rem;
+}
+
+.score {
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .testimonial-header h1 {
+    font-size: 2rem;
+  }
+
+  .points-list li {
+    padding: 12px 15px;
+  }
+
+  .rating {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
